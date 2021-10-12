@@ -30,10 +30,18 @@ export default function Home() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="description"
+          content="A lifestyle and tech company building products for humans, not for robots"
+        />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <img src="/innatical.svg" className="w-48 h-48 mb-12" />
+        <img
+          src="/innatical.svg"
+          className="w-48 h-48 mb-12"
+          alt="Innatical Logo"
+        />
         <h1 className="text-5xl font-bold text-white">
           Welcome to{" "}
           <a className="text-inndigo" href="/">
