@@ -49,7 +49,7 @@ export default function Home() {
           </a>
         </h1>
 
-        <p className="mt-3 text-xl w-1/4 text-white">
+        <p className="mt-3 text-xl xk:w-1/4 text-white">
           A lifestyle and tech company building products for humans, not for
           robots
         </p>
@@ -60,13 +60,9 @@ export default function Home() {
               What we have been working on
             </h1>
           </div> */}
-          <div className=" flex flex-row">
-            <a href="https://innsight.cloud" className="mr-12">
-              Innsight
-            </a>
-            <a href="https://innatical.cloud" className="mr-12">
-              Innatical Cloud
-            </a>
+          <div className="flex-wrap flex flex-row gap-12 text-center">
+            <a href="https://innsight.cloud">Innsight</a>
+            <a href="https://innatical.cloud">Innatical Cloud</a>
             <a href="https://isometric.chat">Isometric Chat</a>
           </div>
         </div>
