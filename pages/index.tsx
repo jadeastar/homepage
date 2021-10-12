@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="A lifestyle and tech company building products for humans, not for robots"
+          content="Developing private internet services"
         />
       </Head>
 
@@ -72,28 +72,28 @@ export default function Home() {
           <div className="flex-wrap flex flex-row gap-12 text-center">
             <a
               href="https://innsight.cloud"
-              className="bg-secondary p-3 rounded-lg w-72 font-light"
+              className="bg-secondary p-3 rounded-lg w-72 font-bold"
             >
               Innsight
-              <p className="text-lg font-normal">
+              <p className="text-base font-normal">
                 Monitor and control your servers painlessly
               </p>
             </a>
             <a
               href="https://innatical.cloud"
-              className="bg-secondary p-3 rounded-lg w-72 font-light"
+              className="bg-secondary p-3 rounded-lg w-72 font-bold"
             >
               Innatical Cloud
-              <p className="text-lg font-normal">
+              <p className="text-base font-normal">
                 Host from the highest quality rentable servers in the industry
               </p>
             </a>
             <a
               href="https://isometric.chat"
-              className="bg-secondary p-3 rounded-lg w-72 font-light"
+              className="bg-secondary p-3 rounded-lg w-72 font-bold"
             >
-              <span className="font-normal">Isometric Chat</span>
-              <p className="text-lg font-normal">
+              Isometric Chat
+              <p className="text-base font-normal">
                 Productively socialize on the most secure chat service in the
                 world
               </p>
