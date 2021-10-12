@@ -1,0 +1,13 @@
+.glow {
+  animation: 2s linear 0s infinite alternate flicker;
+}
+
+@keyframes flicker {
+  0% {
+    filter: drop-shadow(0 0 0.25rem rgb(30, 111, 235));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 0.75rem rgb(30, 111, 235));
+  }
+}

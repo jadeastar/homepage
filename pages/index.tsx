@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-primary">
       <Head>
-        <title>Innatical Corporation</title>
+        <title>Innatical Technologies</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -39,7 +39,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <img
           src="/innatical.svg"
-          className="w-48 h-48 mb-12"
+          className="w-48 h-48 mb-12 glow"
           alt="Innatical Logo"
         />
         <h1 className="text-5xl font-bold text-white">
@@ -48,22 +48,56 @@ export default function Home() {
             Innatical
           </a>
         </h1>
+        {/*
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
+          (lots of them bc big)
+         */}
 
-        <p className="mt-3 text-xl xk:w-1/4 text-white">
-          A lifestyle and tech company building products for humans, not for
-          robots
-        </p>
+        <p className="text-white mt-5">Developing private internet services</p>
 
         <div className="flex flex-col text-white font-bold text-2xl mt-12">
           {/* <div className=" flex flex-row">
-            <h1 className="text-white text-xl text-gray-400">
+            <h1 className="text-xl text-gray-400">
               What we have been working on
             </h1>
           </div> */}
           <div className="flex-wrap flex flex-row gap-12 text-center">
-            <a href="https://innsight.cloud">Innsight</a>
-            <a href="https://innatical.cloud">Innatical Cloud</a>
-            <a href="https://isometric.chat">Isometric Chat</a>
+            <a
+              href="https://innsight.cloud"
+              className="bg-secondary p-3 rounded-lg w-72 font-light"
+            >
+              Innsight
+              <p className="text-lg font-normal">
+                Monitor and control your servers painlessly
+              </p>
+            </a>
+            <a
+              href="https://innatical.cloud"
+              className="bg-secondary p-3 rounded-lg w-72 font-light"
+            >
+              Innatical Cloud
+              <p className="text-lg font-normal">
+                Host from the highest quality rentable servers in the industry
+              </p>
+            </a>
+            <a
+              href="https://isometric.chat"
+              className="bg-secondary p-3 rounded-lg w-72 font-light"
+            >
+              <span className="font-normal">Isometric Chat</span>
+              <p className="text-lg font-normal">
+                Productively socialize on the most secure chat service in the
+                world
+              </p>
+            </a>
           </div>
         </div>
       </main>
