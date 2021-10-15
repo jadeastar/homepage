@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-primary">
+    <>
       <Head>
         <title>Innatical Technologies</title>
         <link
@@ -36,82 +36,78 @@ export default function Home() {
         />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <img
-          src="/innatical.svg"
-          className="w-48 h-48 mb-12 glow"
-          alt="Innatical Logo"
-        />
-        <h1 className="text-5xl font-bold text-white">
-          Welcome to{" "}
-          <a className="text-inndigo" href="/">
-            Innatical
-          </a>
+      <div className="py-14 px-56  bg-white dark:bg-gray-900">
+        <div className="flex items-center text-inndigo font-black text-xl">
+          <img
+            src="/innatical.svg"
+            className="w-8 h-8 mr-1"
+            alt="Innatical Logo"
+          />
+          Innatical
+        </div>
+
+        <h1 className="text-5xl font-black mt-20 text-black dark:text-white">
+          Developing
+          <br />
+          private internet
+          <br />
+          services
         </h1>
-        {/*
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          🏳‍⚧ POWERED BY BIG TRANS ENERGY 🏳‍⚧
-          (lots of them bc big)
-         */}
+        <p className="mt-5 mb-20 text-black dark:text-white">
+          Type something Type somethingType
+          <br />
+          somethingType somethingType something
+          <br />
+          Type something nType something Type somethingType
+          <br />
+          something
+        </p>
 
-        <p className="text-white mt-5">Developing private internet services</p>
+        <a className="text-black dark:text-white" href="/#products">
+          Learn More
+        </a>
+      </div>
 
-        <div className="flex flex-col text-white font-bold text-2xl mt-12">
-          {/* <div className=" flex flex-row">
-            <h1 className="text-xl text-gray-400">
-              What we have been working on
-            </h1>
-          </div> */}
-          <div className="flex-wrap flex flex-row gap-12 text-center">
-            <a
-              href="https://innsight.cloud"
-              className="bg-secondary p-3 rounded-lg w-72 font-bold"
-            >
-              Innsight
-              <p className="text-base font-normal">
-                Monitor and control your servers painlessly
-              </p>
-            </a>
-            <a
-              href="https://innatical.cloud"
-              className="bg-secondary p-3 rounded-lg w-72 font-bold"
-            >
-              Innatical Cloud
-              <p className="text-base font-normal">
-                Host from the highest quality rentable servers in the industry
-              </p>
-            </a>
-            <a
-              href="https://isometric.chat"
-              className="bg-secondary p-3 rounded-lg w-72 font-bold"
-            >
-              Isometric Chat
-              <p className="text-base font-normal">
-                Productively socialize on the most secure chat service in the
-                world
-              </p>
-            </a>
+      <div id="products" className="px-56 bg-gray-100 dark:bg-gray-800 py-16">
+        <h1 className="text-2xl font-black mb-5 text-black dark:text-white">
+          Our Products
+        </h1>
+        <div className="grid grid-cols-3 gap-4">
+          <div className="p-5 bg-white dark:bg-gray-900 rounded-lg text-black dark:text-white">
+            <h1 className="text-xl font-bold">innsight</h1>
+            <p className="mb-5 mt-2">
+              Monitor and control your servers painlessly
+            </p>
+            <a href="https://innsight.cloud/">Learn More</a>
+          </div>
+          <div className="p-5 bg-white dark:bg-gray-900 rounded-lg text-black dark:text-white">
+            <h1 className="text-xl font-bold">inncloud</h1>
+            <p className="mb-5 mt-2">
+              Host from the highest quality rentable servers in the industry
+            </p>
+            <a href="https://innatical.cloud/">Learn More</a>
+          </div>
+          <div className="p-5 bg-white dark:bg-gray-900 rounded-lg text-black dark:text-white">
+            <h1 className="text-xl font-bold">isometric</h1>
+            <p className="mb-5 mt-2">
+              Productively socialize on the most secure chat service in the
+              world
+            </p>
+            <a href="https://isometric.chat/">Learn More</a>
           </div>
         </div>
-      </main>
-      {/* 
-      <footer className="flex items-center justify-center w-full h-12 text-white">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <a href="https://docker.com">Docker Swarm</a>
-        </a>
-      </footer> */}
-    </div>
+      </div>
+
+      <div className="px-56 py-8 bg-white dark:bg-gray-900 text-black dark:text-white">
+        <p>Copyright © 2021 Innatical</p>
+        <p className="font-bold">
+          Made with{" "}
+          <span role="img" aria-label="heart">
+            ❤️
+          </span>{" "}
+          in California & Minnesota
+        </p>
+      </div>
+    </>
   );
 }
