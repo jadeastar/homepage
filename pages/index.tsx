@@ -54,15 +54,12 @@ export default function Home() {
           services
         </h1>
         <p className="mt-5 mb-20 text-black dark:text-white">
-          Type something Type somethingType
+          Innatical is a technology company focusing on your privacy and security.
           <br />
-          somethingType somethingType something
+          We beleive that privacy is a human right and put it in the core of all of our services.
           <br />
-          Type something nType something Type somethingType
-          <br />
-          something
+          We hope to build a better world where humanity and technology can co-exist ethically.
         </p>
-
         <a className="text-black dark:text-white" href="/#products">
           Learn More
         </a>
