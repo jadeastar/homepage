@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Head>
         <title>Innatical Technologies</title>
         <link
@@ -36,7 +36,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className="py-14 px-56  bg-white dark:bg-gray-900">
+      <div className="py-14 px-10 lg:px-56 bg-white dark:bg-gray-900 flex-1">
         <div className="flex items-center text-inndigo font-black text-xl">
           <img
             src="/innatical.svg"
@@ -54,22 +54,28 @@ export default function Home() {
           services
         </h1>
         <p className="mt-5 mb-20 text-black dark:text-white">
-          Innatical is a technology company focusing on your privacy and security.
+          Innatical is a technology company focusing on your privacy and
+          security.
           <br />
-          We beleive that privacy is a human right and put it in the core of all of our services.
+          We beleive that privacy is a human right and put it in the core of all
+          of our services.
           <br />
-          We hope to build a better world where humanity and technology can co-exist ethically.
+          We hope to build a better world where humanity and technology can
+          co-exist ethically.
         </p>
         <a className="text-black dark:text-white" href="/#products">
           Learn More
         </a>
       </div>
 
-      <div id="products" className="px-56 bg-gray-100 dark:bg-gray-800 py-16">
+      <div
+        id="products"
+        className="px-10 lg:px-56 bg-gray-100 dark:bg-gray-800 py-16"
+      >
         <h1 className="text-2xl font-black mb-5 text-black dark:text-white">
           Our Products
         </h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 gap-4">
           <div className="p-5 bg-white dark:bg-gray-900 rounded-lg text-black dark:text-white">
             <h1 className="text-xl font-bold">innsight</h1>
             <p className="mb-5 mt-2">
@@ -95,7 +101,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="px-56 py-8 bg-white dark:bg-gray-900 text-black dark:text-white">
+      <div className="px-10 lg:px-56 py-8 bg-white dark:bg-gray-900 text-black dark:text-white">
         <p>Copyright © 2021 Innatical</p>
         <p className="font-bold">
           Made with{" "}
@@ -105,6 +111,6 @@ export default function Home() {
           in California & Minnesota
         </p>
       </div>
-    </>
+    </div>
   );
 }
