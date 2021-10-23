@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="Developing private internet services"
+          content="Innatical Technologies: Developing private internet services, such as Innatical Cloud, Isometric Chat, and Innsight"
         />
       </Head>
 
@@ -54,14 +54,14 @@ export default function Home() {
           services
         </h1>
         <p className="mt-5 mb-20 text-black dark:text-white">
-          Innatical is a technology company focusing on your privacy and
+          Innatical is a technology company focused on making internet services to enhance your privacy and
           security.
           <br />
-          We beleive that privacy is a human right and put it in the core of all
+          We believe that privacy is a human right and put it in the core of all
           of our services.
           <br />
           We hope to build a better world where humanity and technology can
-          co-exist ethically.
+          coexist ethically.
         </p>
         <a className="text-black dark:text-white" href="/#products">
           Learn More
