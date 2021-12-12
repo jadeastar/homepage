@@ -1,0 +1,6 @@
+Contact: mailto:security@innatical.com
+Expires: 2022-12-12T18:20:00.000Z
+Acknowledgments: https://innatical.com/security
+Preferred-Languages: en, es, zh
+Policy: https://innatical.com/security
+Hiring: https://innatical.com/carreers
