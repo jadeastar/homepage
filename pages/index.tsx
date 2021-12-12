@@ -63,7 +63,7 @@ export default function Home() {
           We hope to build a better world where humanity and technology can
           coexist ethically.
         </p>
-        <a className="text-black dark:text-white" href="/#products">
+        <a className="text-black dark:text-white font-hairline" href="/#products">
           Learn More
         </a>
       </div>

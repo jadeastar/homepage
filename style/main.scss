@@ -11,3 +11,19 @@
     filter: drop-shadow(0 0 0.75rem rgb(30, 111, 235));
   }
 }
+
+a {
+  color: #fff;/*dfe5f3*/
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188));
+  background-size: 100% 30px, 0 30px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+
+  transition: background-size 0.43s ease-in-out;
+}
+
+a:hover {
+  background-size: 0 2px, 100% 2px;
+}
